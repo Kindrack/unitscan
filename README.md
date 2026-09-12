@@ -1,6 +1,6 @@
-# unitscan
+# unitscan (v1.1)
 
-A rare mob scanner for **WoW 3.3.5a (Ascension/Epoch)** with dead mob cooldown tracking, pfQuest map integration, and combat-safe UI.
+A rare mob scanner for **WoW 3.3.5a (Epoch Reborn)** with dead mob cooldown tracking, pfQuest map integration, and combat-safe UI.
 
 ## Features
 
@@ -18,10 +18,18 @@ A rare mob scanner for **WoW 3.3.5a (Ascension/Epoch)** with dead mob cooldown t
 | `/unitscan` | Open configuration |
 | `/unitscan cooldowns` | List all mobs on dead cooldown with time remaining |
 | `/unitscan cooldown <hours>` | Set fallback respawn cooldown for mobs not in pfQuest |
+| `/unitscan nearby` | Print a list of all units being scanned in the current zone |
+| `/unitscan target` | Add/remove your current target from the list of scanned units |
+| `/unitscan unitname` | Add/remove 'unitname' to scanned units, works with any unit name |
+| `/unitscan ignore unitname` | Add/Remove 'unitname' from the built in list of scanned units |
 
 ## Compatibility
 
-- **Server:** Ascension / Epoch private server
+- **Server:** Epoch Reborn private server
 - **Interface:** 30300 (WoW 3.3.5a)
 - **Lua:** 5.1
-- Optional: **pfQuest-wotlk** for accurate per-mob respawn times and map icon management
+- Optional: **[pfQuest-Epoch](https://github.com/Bennylavaa/pfQuest-epoch)** for accurate per-mob respawn times and map icon management
+
+## Credit
+- Original 3.3.5 backport by [Sattva-108](https://github.com/Sattva-108/unitscan)
+- Epoch fixes by [Defcon and David](https://github.com/Defcons/epoch-addons/tree/master/unitscan)
