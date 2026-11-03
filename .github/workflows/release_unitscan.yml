@@ -14,7 +14,8 @@ jobs:
       - name: Extract version from TOC file
         id: get_version
         run: |
-          echo "version=1.1" >> $GITHUB_OUTPUT
+          VERSION=$(grep "## Version:" unitscan.toc | sed 's/## Version: //')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
           echo "Found version: $VERSION"
       
       - name: Create unitscan zip
