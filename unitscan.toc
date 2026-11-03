@@ -1,13 +1,13 @@
 ## Interface: 30300
-## X-GitHub-Repository: Sattva-108/unitscan-WoTLK-3.3.5
-## X-GitHub-Project-Homepage: https://github.com/Sattva-108/unitscan-TBC-2.4.3-WoTLK-3.3.5
+## X-GitHub-Repository: Kindrack/unitscan
+## X-GitHub-Project-Homepage: https://github.com/Kindrack/unitscan
 ## X-GitHub-Project-Licence: MIT
-## X-GitHub-Project-Issues: https://github.com/Sattva-108/unitscan-TBC-2.4.3-WoTLK-3.3.5/issues
-## X-GitHub-Project-Download: https://github.com/Sattva-108/unitscan-TBC-2.4.3-WoTLK-3.3.5/archive/refs/heads/main.zip
+## X-GitHub-Project-Issues: https://github.com/Kindrack/unitscan/issues
+## X-GitHub-Project-Download: https://github.com/Kindrack/unitscan/archive/refs/heads/main.zip
 
-## Author: shirsig, tablegrapes, backport by Sattva
+## Author: shirsig, tablegrapes, backport by Sattva, epoch port by Defcon, David, Kindrak
 ## Title: unitscan
-## Version: 3.3.5
+## Version: 1.2
 ## Notes: Unit scanner with flashy alert 
 ## SavedVariables: unitscanDB, unitscan_defaults, unitscan_targets, unitscan_ignored, unitscan_dead
 
@@ -16,4 +16,8 @@ libs\LibStub\LibStub.lua
 libs\LibCompat-1.0\lib.xml
 
 unitscan_Locale.lua
+data\rare_spawns_enUS.lua
+data\rare_spawns_ruRU.lua
+data\rare_spawns_frFR.lua
+data\rare_spawns_zhCN.lua
 unitscan.lua
