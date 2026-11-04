@@ -7,7 +7,7 @@
 
 ## Author: shirsig, tablegrapes, backport by Sattva, epoch port by Defcon, David, Kindrak
 ## Title: unitscan
-## Version: 1.2
+## Version: 1.2.1
 ## Notes: Unit scanner with flashy alert 
 ## SavedVariables: unitscanDB, unitscan_defaults, unitscan_targets, unitscan_ignored, unitscan_dead
 

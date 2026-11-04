@@ -604,6 +604,9 @@ rare_spawns_data["enUS"] = {
   ["Maraudon"] = {
     "MESHLOK THE HARVESTER",
   },
+  ["Razorfen Downs"] = {
+    "RAGGLESNOUT",
+  },
   ["Razorfen Kraul"] = {
     "BLIND HUNTER",
     "EARTHCALLER HALMGAR",
